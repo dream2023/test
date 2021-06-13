@@ -3,7 +3,7 @@ const path = require('path')
 const axios = require('axios')
 
 const pkgPath = path.resolve(__dirname, './package.json');
-const url = 'https://api.github.com/repos/dream2023/super-antd/releases/latest'
+const url = 'https://api.github.com/repos/dream2023/test/releases/latest';
 
 axios.get(url).then(({ data }) => {
   const version = data.tag_name.replace('v', '').replace(' 🌈', '')
