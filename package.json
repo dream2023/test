@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dream2023/test.git",
+  "author": "zhangchaojie <1098626505@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo build"
+  }
+}
