@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const axios = require('axios')
 
-const pkgPath = path.resolve(__dirname, '../package.json')
+const pkgPath = path.resolve(__dirname, './package.json');
 const url = 'https://api.github.com/repos/dream2023/super-antd/releases/latest'
 
 axios.get(url).then(({ data }) => {
